@@ -38,8 +38,8 @@ function update() {
 	ctx.fillStyle = 'rgba(255,255,255,0.25)';
 	ctx.fillText(score, canvas.width /2, canvas.height /2);
 
-	snake.x += snake.vx;
-	snake.y += snake.vy;
+	snake.x += (snake.vx/2);
+	snake.y += (snake.vy/2);
 
 	if (snake.x < 0){
 		snake.x = canvas.width - grid;
