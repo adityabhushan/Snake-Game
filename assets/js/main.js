@@ -52,6 +52,10 @@ function update() {
 	} else if (snake.y >= canvas.height){
 		snake.y = 0;
 	}
+	
+	/* Modular arithmatic for above code
+	snake.x = (snake.x + snake.vx + canvas.width) % canvas.width;
+	snake.y = (snake.y + snake.vy + canvas.height) % canvas.height;  */
 
 	snake.cells.unshift({x: snake.x, y: snake.y})
 
