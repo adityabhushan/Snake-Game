@@ -1,0 +1,30 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	font-family: "Exo 2","Helvetica", sans-serif;
+	background: linear-gradient(to top left, #AF1E2D 50%, #FFCE00 50%); 
+}
+
+h1 {
+	margin: 0;
+	font-size: 72px;
+}
+
+.top {
+	text-align: left;
+	color: #171717;
+}
+
+.bottom {
+	text-align: right;
+	color: #F3F3F3;
+}
+
+canvas {
+	background: #171717;
+	border: 3px solid #F3F3F3;
+}
